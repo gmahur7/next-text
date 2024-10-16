@@ -53,7 +53,7 @@ export default function DeleteChatGroup({
           <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
           <AlertDialogDescription>
             This action cannot be undone. This will permanently delete your chat
-            group and it's conversations.
+            group and it&apos;s conversations.
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>

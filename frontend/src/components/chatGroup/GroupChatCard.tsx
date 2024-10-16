@@ -8,7 +8,7 @@ export default function GroupChatCard({
   group,
   user,
 }: {
-  group: ChatGroupTypes;
+  group: ChatGroupTypes ;
   user: CustomUser;
 }) {
   return (

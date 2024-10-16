@@ -11,7 +11,7 @@ const Dashboard = async () => {
 
   const session: CustomSession | null = await getServerSession(authOptions)
 
-  const groups: Array<ChatGroupTypes | []> = await fetchChatGroups(session?.user?.token!)
+  const groups: Array<ChatGroupTypes > = await fetchChatGroups(session?.user?.token!)
 
   return (
     <div>

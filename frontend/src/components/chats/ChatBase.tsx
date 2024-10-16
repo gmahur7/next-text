@@ -6,7 +6,7 @@ import ChatNav from './ChatNav'
 import ChatUserDialog from './ChatUserDialog'
 import Chats from './Chats'
 
-const ChatBase = ({ group, users,oldMessages,getData }: { group: ChatGroupTypes, users: Array<GroupChatUserType> | [],oldMessages:Array<MessageType> | [], getData:any}) => {
+const ChatBase = ({ group, users,oldMessages }: { group: ChatGroupTypes, users: Array<GroupChatUserType> | [],oldMessages:Array<MessageType> | []}) => {
 
   const [open, setOpen] = useState<boolean>(true)
   const [chatUser,setChatUser]=useState<GroupChatUserType>()

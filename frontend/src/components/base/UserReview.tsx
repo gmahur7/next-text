@@ -9,7 +9,7 @@ export default function UserReviews() {
       <div className="flex flex-col md:flex-row justify-center space-y-6 md:space-y-0 md:space-x-6">
         <Card className="p-6 text-center">
           <p className="text-lg text-gray-700">
-            “The encryption is excellent. I trust NextText for secure chats.”
+          &quot;The encryption is excellent. I trust NextText for secure chats.&quot;
           </p>
           <div className="mt-4">
             <img
@@ -22,7 +22,7 @@ export default function UserReviews() {
         </Card>
         <Card className="p-6 text-center">
           <p className="text-lg text-gray-700">
-            “NextText is revolutionary! The quickest way to initiate a conversation.”
+          &quot;NextText is revolutionary! The quickest way to initiate a conversation.&quot;
           </p>
           <div className="mt-4">
             <img
