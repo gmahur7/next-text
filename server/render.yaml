@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: next-text-node
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    autoDeploy: true
